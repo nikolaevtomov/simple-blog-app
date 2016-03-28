@@ -1,0 +1,35 @@
+$form: 'postsNew';
+
+.#{$form} {
+  width: 100%;
+  float: left;
+
+  &__group {
+    width: 100%;
+    float: left;
+
+    &--label {
+      width: 100%;
+      float: left;
+    }
+    &--input {
+      width: 100%;
+      float: left;
+    }
+    &--error {
+      font-size: 12px;
+      font-style: italic;
+      color: red;
+    }
+
+  }
+  &--button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    margin-top: 5px;
+    padding: 5px;
+  }
+
+}
